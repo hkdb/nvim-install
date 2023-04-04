@@ -19,8 +19,11 @@ fi
 echo -e "\nDownloading neovim...\n"
 wget https://github.com/neovim/neovim/releases/download/stable/nvim-linux64.deb
 
+echo -e "\nRemoving existing neovim...\n"
+sudo apt purge neovim
+
 echo -e "\nInstalling neovim...\n"
-sudo apt install nvim-linux64.deb
+sudo apt install ./nvim-linux64.deb
 
 echo -e "\nCompleted...\n"
 

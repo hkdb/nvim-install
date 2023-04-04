@@ -71,7 +71,8 @@ Customized for use with:
 
 ## CHANGELOG
 
-- 04033023 - [WIP] Initial commit
+- 04042023 - [WIP] Fixed perms + scripts
+- 04032023 - [WIP] Initial commit
 
 ## DISCLAIMER
 
