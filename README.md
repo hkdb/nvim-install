@@ -39,7 +39,8 @@ Customized for use with:
   - python-lsp-server
   - dockerfile-language-server
   - docker-compose-language-service
-  - [folke/persistence.nvim](https://github.com/folke/persistence.nvim)
+  - terraform-ls
+- [folke/persistence.nvim](https://github.com/folke/persistence.nvim)
 - Shortcuts:
   - Shift + Tab = Next Window Tab
   - Shift + Right = Next Window Tab
@@ -71,6 +72,7 @@ Customized for use with:
 
 ## CHANGELOG
 
+- 04042023 - [WIP] Added terraform-ls, glow, & dependencies + install scripts fix
 - 04042023 - [WIP] Fixed perms + scripts
 - 04032023 - [WIP] Initial commit
 

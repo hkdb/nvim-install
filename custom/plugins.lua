@@ -37,6 +37,7 @@ local plugins = {
         "python-lsp-server",
         "dockerfile-language-server",
         "docker-compose-language-service",
+        "terraform-ls",
       },
     },
   },
@@ -47,6 +48,16 @@ local plugins = {
     config = function()
       require("persistence").setup()
     end,
-  }
+  },
+  {
+    "ellisonleao/glow.nvim",
+    config = function()
+       require('glow').setup({
+         style = "dark",
+         width = 120,
+       })
+    end,
+    cmd = "Glow"
+  },
 }
 return plugins
