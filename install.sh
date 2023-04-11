@@ -28,7 +28,7 @@ if [[ "$OSTYPE" == "linux-gnu"* ]]; then
 	# Set Directory based on Distro
 	if [[ $distro == "Pop!_OS"* ]] || [[ $distro == "Ubuntu"* ]] || [[ $distro == "Debian"* ]]; then
 		DIR="debian"
-	elif [[ $distro == "Arch"* ]]; then
+	elif [[ $distro == "\"Arch"* ]] || [[ $distro == "\"Garuda"* ]]; then
 		DIR="arch"
 	elif [[ $distro == "Fedora"* ]]; then
 		DIR="fedora"

@@ -72,6 +72,7 @@ Customized for use with:
 
 ## CHANGELOG
 
+- 04112023 - [WIP] Fixed arch based install
 - 04052023 - [WIP] Added nodejs dependency
 - 04042023 - [WIP] Added terraform-ls, glow, & dependencies + install scripts fix
 - 04042023 - [WIP] Fixed perms + scripts
