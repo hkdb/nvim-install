@@ -33,7 +33,7 @@ if [[ "$OSTYPE" == "linux-gnu"* ]]; then
 	elif [[ $distro == "Fedora"* ]]; then
 		DIR="fedora"
 	fi
-        echo "${bold}Distro:${normal} ${distro}"
+  echo "${bold}Distro:${normal} ${distro}"
 elif [[ "$OSTYPE" == "darwin"* ]]; then
 	echo "${bold}OS:${normal} MacOS"
 	echo ""
