@@ -33,7 +33,7 @@ if [[ "$?" != 0 ]]; then
 fi
 
 echo -e "\nDownloading neovim...\n"
-wget https://github.com/neovim/neovim/releases/download/stable/nvim-linux64.deb
+wget https://github.com/neovim/neovim/releases/download/v0.8.3/nvim-linux64.deb
 
 echo -e "\nRemoving existing neovim...\n"
 sudo apt purge neovim
@@ -44,7 +44,8 @@ if [[ "$GOI" == "" ]]; then
 fi
 if [[ "$GOI" == "N" ]] || [[ "$GOI" = "n" ]]; then
   echo -e "\nInstalling GoLang...\n"
-  sudo apt install go
+  sudo add-apt-repository ppa:longsleep/golang-backports
+  sudo apt install golang-go
   echo -e "\nInstalling Glow...\n"
   go install github.com/charmbracelet/glow@latest
 fi

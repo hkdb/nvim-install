@@ -72,6 +72,7 @@ Customized for use with:
 
 ## CHANGELOG
 
+- 04292023 - [WIP] Interim nvim deb fix + go ppa
 - 04112023 - [WIP] Fixed install format
 - 04112023 - [WIP] Fixed arch based install
 - 04052023 - [WIP] Added nodejs dependency
